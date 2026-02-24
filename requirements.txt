@@ -1,5 +1,8 @@
 streamlit==1.41.1
+opencv-python-headless==4.10.0.84
 numpy
-pandas
-cv2
-PIL
+pillow
+requests
+rich<14,>=10.14.0
+markdown-it-py<4
+mdurl<0.2
