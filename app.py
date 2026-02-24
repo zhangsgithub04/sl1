@@ -46,7 +46,7 @@ def get_redis_client():
         port=port,
         username=username,     # include if your Redis Cloud instance uses ACL users
         password=password,
-        ssl=True,              # Redis Cloud typically requires TLS
+        ssl=False,              # Redis Cloud typically requires TLS
         decode_responses=True, # strings instead of bytes
         socket_timeout=5,
         socket_connect_timeout=5,
